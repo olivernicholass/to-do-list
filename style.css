@@ -1,0 +1,57 @@
+body {
+    background-color: lightblue;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#todo-list {
+    padding: 20px;
+    text-align: center;
+}
+
+.task {
+    list-style: none; /* remove the bullet points */
+    margin: 5px 0; /* add some margin to the top and bottom */
+    padding: 5px; /* add some padding */
+    background-color: #f2f2f2; /* add a light gray background color */
+    color: black; /* text color is black */
+    display: inline-block;
+    margin: 10px;
+}
+
+#add-form {
+    display: flex;
+    flex-direction: column; /* change the layout direction to column */
+    align-items: center; /* center the items horizontally */
+    justify-content: center; /* center the items vertically */
+}
+
+#new-task {
+    padding: 10px;
+    border-radius: 0px;
+    margin-right: 10px;
+    border: none;
+    box-shadow: 0px 0px 10px #ccc;
+    margin-right: 10px;
+}
+
+#add-button {
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 0px;
+    border: none;
+    box-shadow: 0px 0px 10px #ccc;
+    margin-top: 10px;
+}
+
+.remove-button {
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
